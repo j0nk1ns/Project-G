@@ -77,11 +77,22 @@ public class PlayerController2 : MonoBehaviour
 			rushing = false;
 			speedMod = 0;
 		}
+
        else if(rushing) 
-       {
+        {
 	       timeLeft -= Time.deltaTime;
         }
     }
+
+    public void hurt()
+    {
+		if(!rushing)
+        {
+			gameObject.GetComponent<Animator> ().Play ("PlayerHurt");		
+		}
+
+	}
+
 }			
 	
 

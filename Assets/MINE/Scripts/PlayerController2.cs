@@ -30,6 +30,9 @@ public class PlayerController2 : MonoBehaviour
         horizontal = Input.GetAxis("Horizontal");
         vertical = Input.GetAxis("Vertical");
 
+
+            Debug.Log (transform.childCount);
+
         resetBoostTime ();
 		controllerManager (); 
     }
@@ -37,8 +40,9 @@ public class PlayerController2 : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 position = rigidbody2d.position;
-        position.x = position.x + 20.0f * horizontal * Time.deltaTime;
-        position.y = position.y + 20.0f * vertical * Time.deltaTime;
+        position.x = position.x + moveSpeed * horizontal * Time.deltaTime;
+        position.y = position.y + moveSpeed * vertical * Time.deltaTime;
+
 
         rigidbody2d.MovePosition(position);
     }

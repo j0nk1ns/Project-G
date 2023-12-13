@@ -22,56 +22,56 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55038
+49638
 Successfully changed project path to: /Users/game5/Project-G
 /Users/game5/Project-G
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 35.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game5/Project-G/Assets
 GfxDevice: creating device client; threaded=0
-2023-12-05 13:05:37.476 Unity[8602:371951] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2023-12-05 13:05:37.476 Unity[8602:371951] Metal devices available: 1
-2023-12-05 13:05:37.476 Unity[8602:371951] 0: AMD Radeon Pro 5500 XT (high power)
-2023-12-05 13:05:37.476 Unity[8602:371951] Using device AMD Radeon Pro 5500 XT (high power)
+2023-12-12 13:12:40.177 Unity[1896:55300] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2023-12-12 13:12:40.177 Unity[1896:55300] Metal devices available: 1
+2023-12-12 13:12:40.177 Unity[1896:55300] 0: AMD Radeon Pro 5500 XT (high power)
+2023-12-12 13:12:40.177 Unity[1896:55300] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56602
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000482 seconds.
+Registered in 0.000458 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 35.67 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.527 seconds
+- Completed reload, in  0.559 seconds
 Domain Reload Profiling:
-	ReloadAssembly (527ms)
+	ReloadAssembly (559ms)
 		BeginReloadAssembly (37ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (424ms)
-			LoadAssemblies (37ms)
+		EndReloadAssembly (457ms)
+			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (186ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
+			RebuildScriptCaches (32ms)
 			SetupLoadedEditorAssemblies (163ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
+				RefreshPlugins (34ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (91ms)
+				ProcessInitializeOnLoadAttributes (92ms)
 				ProcessInitializeOnLoadMethodAttributes (26ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -79,43 +79,43 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001776 seconds.
+Registered in 0.001769 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 34.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.004 seconds
+- Completed reload, in  1.013 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1004ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1013ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (816ms)
-			LoadAssemblies (67ms)
+		EndReloadAssembly (827ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (300ms)
+			SetupTypeCache (304ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (289ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (49ms)
-				ProcessInitializeOnLoadAttributes (186ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (194ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.001273 seconds.
+Validating Project structure ... 0.001263 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.008975 seconds.
+Upgrading shader files ...0.009003 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.33 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2218 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.4 MB.
+Unloading 2221 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 215.5 MB.
 System memory in use after: 214.6 MB.
 
-Unloading 114 unused Assets to reduce memory usage. Loaded Objects now: 2686.
-Total: 2.782689 ms (FindLiveObjects: 0.153835 ms CreateObjectMapping: 0.078975 ms MarkObjects: 2.113149 ms  DeleteObjects: 0.436166 ms)
+Unloading 107 unused Assets to reduce memory usage. Loaded Objects now: 2689.
+Total: 2.845569 ms (FindLiveObjects: 0.179667 ms CreateObjectMapping: 0.094177 ms MarkObjects: 2.136304 ms  DeleteObjects: 0.434892 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,601 +150,265 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/MINE/Art/Thesheet 2.png
-  artifactKey: Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2.png using Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c55ba7adcaa9fce5606afcd4cb7776') in 0.775548 seconds 
-  Import took 0.780878 seconds .
+  path: Assets/MINE/Scripts/MarkerManger.cs
+  artifactKey: Guid(47599e319e07d48e99a171965420fc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Scripts/MarkerManger.cs using Guid(47599e319e07d48e99a171965420fc19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b957bb2238297f1fe6dca5f1185ab1') in 0.256144 seconds 
+  Import took 0.261077 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.637184 seconds.
-  path: Assets/MINE/Art/Thesheet 2.png
-  artifactKey: Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2.png using Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611b5e67f0ed0c7ce3a589332d98402b') in 0.023093 seconds 
-  Import took 0.026818 seconds .
+  Time since last request: 0.110879 seconds.
+  path: Assets/MINE/Scripts/EnemyFish.cs
+  artifactKey: Guid(f0d8424446ee54ff3b5f6ef99536f866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Scripts/EnemyFish.cs using Guid(f0d8424446ee54ff3b5f6ef99536f866) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29b48bd3f886065dd02756c36a7b02f') in 0.002696 seconds 
+  Import took 0.006200 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 19.758674 seconds.
-  path: Assets/MINE/Art/Thesheet 2.png
-  artifactKey: Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2.png using Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8de7a8eee40f56e857918f66a2b073') in 0.044928 seconds 
-  Import took 0.047812 seconds .
+  Time since last request: 1.545111 seconds.
+  path: Assets/MINE/Scripts/PlayerController3.cs
+  artifactKey: Guid(20c660f985c634c99a6200fa9c745640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Scripts/PlayerController3.cs using Guid(20c660f985c634c99a6200fa9c745640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '602322bf5c401ebab7388933e975f850') in 0.002696 seconds 
+  Import took 0.005404 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.977287 seconds.
-  path: Assets/MINE/Art/floor.prefab
-  artifactKey: Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/floor.prefab using Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bcc2203345b9d56c479600dcf421fd6') in 0.819732 seconds 
-  Import took 0.825289 seconds .
+  Time since last request: 5.474993 seconds.
+  path: Assets/MINE/Scripts/DamagePlayer.cs
+  artifactKey: Guid(e215b6fd8a6fa421a916392f2507feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Scripts/DamagePlayer.cs using Guid(e215b6fd8a6fa421a916392f2507feb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53cea19bc76d7cba5177cb3d145aeb21') in 0.003090 seconds 
+  Import took 0.006160 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/MINE/Art/Thesheet 2_7.asset
-  artifactKey: Guid(318f3f78bb67f4ea78ad62ef3645819f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_7.asset using Guid(318f3f78bb67f4ea78ad62ef3645819f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369898c677eaf165df0a7094739619d5') in 0.234405 seconds 
-  Import took 0.238891 seconds .
+  Time since last request: 1.688258 seconds.
+  path: Assets/MINE/Scripts/AddBodyDynamic.cs
+  artifactKey: Guid(2e857e3d1667a4586abd1879d99dd7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Scripts/AddBodyDynamic.cs using Guid(2e857e3d1667a4586abd1879d99dd7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7decddf4a96dbbdc30e9e7c90798ea7') in 0.002639 seconds 
+  Import took 0.005351 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/MINE/Art/Thesheet 2_2.asset
-  artifactKey: Guid(30363d31b43a34026ab3cbf8429060d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_2.asset using Guid(30363d31b43a34026ab3cbf8429060d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08962ea06982693e4e9a4e386f631968') in 0.008339 seconds 
-  Import took 0.010934 seconds .
+  Time since last request: 21.453781 seconds.
+  path: Assets/MINE/Scripts/SnakeManager.cs
+  artifactKey: Guid(20c660f985c634c99a6200fa9c745640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Scripts/SnakeManager.cs using Guid(20c660f985c634c99a6200fa9c745640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9014de9a3dbcfc493eb43a5d254bd632') in 0.002885 seconds 
+  Import took 0.005639 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/MINE/Art/Thesheet 2_8.asset
-  artifactKey: Guid(d49794f1a6fc64cdc855491f111823f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_8.asset using Guid(d49794f1a6fc64cdc855491f111823f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4fb3b450d5838d7969c832ca04a54b1') in 0.007851 seconds 
-  Import took 0.010620 seconds .
+  Time since last request: 9.229451 seconds.
+  path: Assets/MINE/Prefab/Enemy Fish 1.prefab
+  artifactKey: Guid(34778f1a4a5394ea7b9d98434da5afce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Prefab/Enemy Fish 1.prefab using Guid(34778f1a4a5394ea7b9d98434da5afce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '280b1350a2eab15e14fa633e290cdea5') in 0.863427 seconds 
+  Import took 0.868410 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/MINE/Art/Thesheet 2_4.asset
-  artifactKey: Guid(9844a846c02c445a488bf1dd7daa5495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_4.asset using Guid(9844a846c02c445a488bf1dd7daa5495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9ea7b21d1609f03242aa7fbf5c4f3f') in 0.008559 seconds 
-  Import took 0.011151 seconds .
+  Time since last request: 0.000321 seconds.
+  path: Assets/MINE/Prefab/Player.prefab
+  artifactKey: Guid(4bd86a9f7738f4044af5a526d9a094ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Prefab/Player.prefab using Guid(4bd86a9f7738f4044af5a526d9a094ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2ace5c54f9b0c71db7194d8db3b88a') in 0.009835 seconds 
+  Import took 0.013371 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/MINE/Art/Thesheet 2_19.asset
-  artifactKey: Guid(d17ff40fef8ef45c99bc064b48b48428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_19.asset using Guid(d17ff40fef8ef45c99bc064b48b48428) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2506f0b4c03b0f89be267c5f6cafdeb') in 0.008798 seconds 
-  Import took 0.011601 seconds .
+  Time since last request: 279.550022 seconds.
+  path: Assets/MINE/Player
+  artifactKey: Guid(6828d4d94a23c4b25aa65961d4c6e3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player using Guid(6828d4d94a23c4b25aa65961d4c6e3df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb352458ed9f3361cc1a86746e784e94') in 0.001812 seconds 
+  Import took 0.004512 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/MINE/Art/Thesheet 2_16.asset
-  artifactKey: Guid(62c2fd1fa7ebf4daaa4dc820b776f708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_16.asset using Guid(62c2fd1fa7ebf4daaa4dc820b776f708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd37254fb05fd3c44ebed1f09228fef32') in 0.008896 seconds 
-  Import took 0.011472 seconds .
+  Time since last request: 12.799024 seconds.
+  path: Assets/MINE/Fonts
+  artifactKey: Guid(65bed80adde2048de82d6043a51a3ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Fonts using Guid(65bed80adde2048de82d6043a51a3ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3524aa8459326a6adb6d3244ad32f8ae') in 0.001057 seconds 
+  Import took 0.004037 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/MINE/Art/Thesheet 2_0.asset
-  artifactKey: Guid(cbfe457d5e42245d5b9d7e185575cfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_0.asset using Guid(cbfe457d5e42245d5b9d7e185575cfe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5a02ca11435ccd01e07817e9f7422ab') in 0.007859 seconds 
-  Import took 0.010606 seconds .
+  Time since last request: 26.214777 seconds.
+  path: Assets/MINE/Enemes
+  artifactKey: Guid(9f9559d100aec43d799f49d4ae9fda53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Enemes using Guid(9f9559d100aec43d799f49d4ae9fda53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68d23664140b39fa8ad57c7791f7779') in 0.001773 seconds 
+  Import took 0.004573 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/MINE/Art/Thesheet 2_11.asset
-  artifactKey: Guid(32496249b143e43528b16094db4d3002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_11.asset using Guid(32496249b143e43528b16094db4d3002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '485fdbb559aed5538619c35a8331c718') in 0.008528 seconds 
-  Import took 0.011267 seconds .
+  Time since last request: 58.159959 seconds.
+  path: Assets/MINE/Sea
+  artifactKey: Guid(754475ada68fa46e9bdc8c4e35f441ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Sea using Guid(754475ada68fa46e9bdc8c4e35f441ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f245d8b172d5442a2655691c75ece35f') in 0.001801 seconds 
+  Import took 0.004698 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/MINE/Art/Thesheet 2_18.asset
-  artifactKey: Guid(e0d151767135347a9a617badab6c8048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_18.asset using Guid(e0d151767135347a9a617badab6c8048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122d690cd41e3e7b6d59fd38ed3f868e') in 0.008005 seconds 
-  Import took 0.010971 seconds .
+  Time since last request: 38.295486 seconds.
+  path: Assets/MINE/Enemes/Scripts
+  artifactKey: Guid(46eea4aadb13c4d778c76753cbbe1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Enemes/Scripts using Guid(46eea4aadb13c4d778c76753cbbe1b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dbf05274a9aa6098a16c59c221aa8b0') in 0.001663 seconds 
+  Import took 0.004408 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/MINE/Art/Thesheet 2_3.asset
-  artifactKey: Guid(1162b1da5bd194b6ebe7da1102ead2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_3.asset using Guid(1162b1da5bd194b6ebe7da1102ead2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1ace39454b045ac612e6555001fb43') in 0.007789 seconds 
-  Import took 0.010421 seconds .
+  Time since last request: 40.859946 seconds.
+  path: Assets/MINE/Enemes/Prefab
+  artifactKey: Guid(10b6ab391c8434a2f961ecb2c1608e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Enemes/Prefab using Guid(10b6ab391c8434a2f961ecb2c1608e20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644b04b8665b8d64baf10f70d290914d') in 0.001589 seconds 
+  Import took 0.004354 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/MINE/Art/Thesheet 2_1.asset
-  artifactKey: Guid(4247062044d01423ab2048bb58d1322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_1.asset using Guid(4247062044d01423ab2048bb58d1322b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e171550f3e4b39624446a97e88951105') in 0.007765 seconds 
-  Import took 0.010163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/MINE/Art/Thesheet 2_17.asset
-  artifactKey: Guid(bff0f8c8ea3614f0e9a3fc1e1686159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_17.asset using Guid(bff0f8c8ea3614f0e9a3fc1e1686159f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a242055c60ad910064dfd43b6151c27') in 0.008060 seconds 
-  Import took 0.010694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/MINE/Art/Thesheet 2_9.asset
-  artifactKey: Guid(8916c37bbeea145e2837a1af8452fd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_9.asset using Guid(8916c37bbeea145e2837a1af8452fd9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2887a401f79638bb6360b946bda4658f') in 0.008278 seconds 
-  Import took 0.011105 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/MINE/Art/Thesheet 2_6.asset
-  artifactKey: Guid(141e4d28082264532aa502ad523475a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_6.asset using Guid(141e4d28082264532aa502ad523475a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7504bda48c2c5b69e8dc0f7eb5630b76') in 0.008453 seconds 
-  Import took 0.011084 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/MINE/Art/Thesheet 2_10.asset
-  artifactKey: Guid(594c1b68d27ce4eda87ca73d63c15dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_10.asset using Guid(594c1b68d27ce4eda87ca73d63c15dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae9c9acd743505f173187b2791e1054a') in 0.007910 seconds 
-  Import took 0.010506 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/MINE/Art/Thesheet 2_14.asset
-  artifactKey: Guid(1fde71069ca3d4cd6b9907fc142d2dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_14.asset using Guid(1fde71069ca3d4cd6b9907fc142d2dec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435c700095facfb894481ab317db43a3') in 0.007734 seconds 
-  Import took 0.010212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/MINE/Art/Thesheet 2_5.asset
-  artifactKey: Guid(12e65e77d930b4a60a10cd10187a6adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_5.asset using Guid(12e65e77d930b4a60a10cd10187a6adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b7ea15adac92ad2ab7dba03a843bd3') in 0.008646 seconds 
-  Import took 0.011442 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/MINE/Art/Thesheet 2_22.asset
-  artifactKey: Guid(d84f7297a64e640f8860917c6acace63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_22.asset using Guid(d84f7297a64e640f8860917c6acace63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f5d4b9968c030505b3f3b30433f48be') in 0.008155 seconds 
-  Import took 0.010921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/MINE/Art/Thesheet 2_13.asset
-  artifactKey: Guid(261df3546e16646009b2f2a6ffe24769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_13.asset using Guid(261df3546e16646009b2f2a6ffe24769) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d67546a42173471b430eec82d183464') in 0.008129 seconds 
-  Import took 0.010875 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/MINE/Art/Thesheet 2_21.asset
-  artifactKey: Guid(8f5ca0bf52c0f4a6680f9d0939508281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_21.asset using Guid(8f5ca0bf52c0f4a6680f9d0939508281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1373940a6b6ece771ce1c97b5931ca') in 0.008411 seconds 
-  Import took 0.011049 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/MINE/Art/Thesheet 2_12.asset
-  artifactKey: Guid(763443683d24448908827128f0db6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_12.asset using Guid(763443683d24448908827128f0db6261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c05636dfb464a652d2ba0ef82813723') in 0.009270 seconds 
-  Import took 0.011866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/MINE/Art/Thesheet 2_20.asset
-  artifactKey: Guid(c0a7fb0f1a6a34a51be26cf64018a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_20.asset using Guid(c0a7fb0f1a6a34a51be26cf64018a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21b94dc48eb3a3afe674420ec11316d') in 0.009591 seconds 
-  Import took 0.012159 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/MINE/Art/Thesheet 2_15.asset
-  artifactKey: Guid(395e4d13f169e4b68938fb334728ef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2_15.asset using Guid(395e4d13f169e4b68938fb334728ef40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda9d0633fd8656437fdc2e62a301adb') in 0.008543 seconds 
-  Import took 0.011276 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.572093 seconds.
-  path: Assets/MINE/Art/floor.prefab
-  artifactKey: Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/floor.prefab using Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21f8227539b76779a213d505b992df85') in 0.016877 seconds 
-  Import took 0.020805 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 256.091905 seconds.
-  path: Assets/MINE/Art/floor.prefab
-  artifactKey: Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/floor.prefab using Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '728d1139496e4c625ee76b7dc949dabd') in 0.014562 seconds 
-  Import took 0.017758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 119.303779 seconds.
-  path: Assets/MINE/Art/Thesheet.png
-  artifactKey: Guid(314b827cd389a4d308e1a6bf97395bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet.png using Guid(314b827cd389a4d308e1a6bf97395bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247e3e1e6d999c806eb4c997ec2085f5') in 0.043453 seconds 
-  Import took 0.046460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.278640 seconds.
-  path: Assets/MINE/Art/Thesheet 2.png
-  artifactKey: Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2.png using Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '987f6d5c6c1c653b1d58a9caf52f8b97') in 0.009549 seconds 
-  Import took 0.012553 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.259034 seconds.
-  path: Assets/MINE/Art/Thesheet 2.png
-  artifactKey: Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2.png using Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803f7c39779b9c7e526fd18b0d1a49d9') in 0.008356 seconds 
-  Import took 0.011381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.004392 seconds.
-  path: Assets/MINE/Art/Thesheet 2.png
-  artifactKey: Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/Thesheet 2.png using Guid(860699b6d99bd41759c78e009e048a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3da8ae84cdb0732c900467e9f003790b') in 0.046269 seconds 
-  Import took 0.049189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 406.582416 seconds.
-  path: Assets/MINE/Art/floor.prefab
-  artifactKey: Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art/floor.prefab using Guid(83bb19035766d472a9da26e40d43bd8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41131a4bb6cf5bacb5bd10215dd61658') in 0.016461 seconds 
-  Import took 0.020305 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.767789 seconds.
-  path: Assets/MINE/Art 1
+  Time since last request: 24.217370 seconds.
+  path: Assets/MINE/Sea/Art
   artifactKey: Guid(680dbdca589694d388945d1c15eeba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1 using Guid(680dbdca589694d388945d1c15eeba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd8d9498cc23e525de643d4fd33b93ca') in 0.001860 seconds 
-  Import took 0.004770 seconds .
+Start importing Assets/MINE/Sea/Art using Guid(680dbdca589694d388945d1c15eeba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9caaec832a0a3c959ec94e118d9060a') in 0.000953 seconds 
+  Import took 0.003514 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.916068 seconds.
-  path: Assets/MINE/Art2
-  artifactKey: Guid(bdf87da84515e4e8c9f4ef17473bb92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art2 using Guid(bdf87da84515e4e8c9f4ef17473bb92e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37e53a5ff82a911dfb351efc529718f') in 0.001044 seconds 
-  Import took 0.003723 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001657 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.41 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.956 seconds
-Domain Reload Profiling:
-	ReloadAssembly (956ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (792ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (302ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (277ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2199 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.4 MB.
-System memory in use after: 227.3 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2702.
-Total: 2.363374 ms (FindLiveObjects: 0.149343 ms CreateObjectMapping: 0.077375 ms MarkObjects: 2.052214 ms  DeleteObjects: 0.083816 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001776 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.947 seconds
-Domain Reload Profiling:
-	ReloadAssembly (948ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (786ms)
-			LoadAssemblies (63ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (280ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (0ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (180ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (1ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2198 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.5 MB.
-System memory in use after: 227.5 MB.
-
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2703.
-Total: 2.368746 ms (FindLiveObjects: 0.144848 ms CreateObjectMapping: 0.070266 ms MarkObjects: 2.066931 ms  DeleteObjects: 0.086087 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 41.441193 seconds.
-  path: Assets/MINE/Art 1/New Palette.prefab
-  artifactKey: Guid(bdb0ca72d460d44f1a6ae0ad4600c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/New Palette.prefab using Guid(bdb0ca72d460d44f1a6ae0ad4600c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f14fca26aa88cf5bbe2b1a0cbfd5f8') in 0.043319 seconds 
-  Import took 0.046151 seconds .
+  Time since last request: 320.310340 seconds.
+  path: Assets/MINE/Player/Prefab/87ced9e67e60f6518beb49295dd432c9.jpeg
+  artifactKey: Guid(e8cce04e825c742328b1edc6d81b8169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/87ced9e67e60f6518beb49295dd432c9.jpeg using Guid(e8cce04e825c742328b1edc6d81b8169) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f90daed6e0b8f7fc3adc48296a840b') in 0.701332 seconds 
+  Import took 0.706691 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.990875 seconds.
-  path: Assets/MINE/Art 1/New Palette.prefab
-  artifactKey: Guid(bdb0ca72d460d44f1a6ae0ad4600c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/New Palette.prefab using Guid(bdb0ca72d460d44f1a6ae0ad4600c709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badc769eaccda49dfa19981ad2f72677') in 0.011013 seconds 
-  Import took 0.014075 seconds .
+  Time since last request: 58.383601 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond.png
+  artifactKey: Guid(b9c9063bf8fce496086bcca4f85d9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond.png using Guid(b9c9063bf8fce496086bcca4f85d9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5231bb9b256318821ab3fea5eba1e6') in 0.697577 seconds 
+  Import took 0.703378 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_3.asset
-  artifactKey: Guid(1a6e3f0d31ff1468aaf34958f1f1db9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_3.asset using Guid(1a6e3f0d31ff1468aaf34958f1f1db9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2291628cd127161a8e9be564c303a72') in 0.015741 seconds 
-  Import took 0.018278 seconds .
+  Time since last request: 49.945856 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 1.png
+  artifactKey: Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 1.png using Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8242ca8fe3fc7c933624efa5ee499e2c') in 0.007121 seconds 
+  Import took 0.009835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_9.asset
-  artifactKey: Guid(148c3172170a44b4189bd56cf677ec69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_9.asset using Guid(148c3172170a44b4189bd56cf677ec69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fafb2a5084723593acf176855e8ad29') in 0.006436 seconds 
-  Import took 0.009015 seconds .
+  Time since last request: 12.711503 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 2.png
+  artifactKey: Guid(df7fa5209cf87439f92927fe023e506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 2.png using Guid(df7fa5209cf87439f92927fe023e506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6fd1cafcc53718efe4f91e3dfcaa890') in 0.007524 seconds 
+  Import took 0.011091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_15.asset
-  artifactKey: Guid(5d8ac530afd224dc38caa4752f7d7253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_15.asset using Guid(5d8ac530afd224dc38caa4752f7d7253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e0a7b28cb709370d28031d34242c34d') in 0.006507 seconds 
-  Import took 0.009073 seconds .
+  Time since last request: 13.949856 seconds.
+  path: Assets/MINE/Player/Prefab/NewBehaviourScript.cs
+  artifactKey: Guid(2023893d153dc439aaf879e53ada9701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/NewBehaviourScript.cs using Guid(2023893d153dc439aaf879e53ada9701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43b23ec7b410370dbb386ff807ae686') in 0.002958 seconds 
+  Import took 0.006116 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_21.asset
-  artifactKey: Guid(3346785e13abc413388e30bc9c7b92f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_21.asset using Guid(3346785e13abc413388e30bc9c7b92f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f7ecc1502b56596b76059e724ca3c4') in 0.007194 seconds 
-  Import took 0.009683 seconds .
+  Time since last request: 12.354149 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 3.png
+  artifactKey: Guid(5db2c05705069414295b22888aca1de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 3.png using Guid(5db2c05705069414295b22888aca1de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc3a6d4c54ca1804433df781ee33349') in 0.006870 seconds 
+  Import took 0.009759 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_13.asset
-  artifactKey: Guid(cab674dc810374dd1aaa7636374f2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_13.asset using Guid(cab674dc810374dd1aaa7636374f2311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da2c7d3e294b6dd68ffe81d7c7bcd190') in 0.006724 seconds 
-  Import took 0.009210 seconds .
+  Time since last request: 291.368492 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond.png
+  artifactKey: Guid(b9c9063bf8fce496086bcca4f85d9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond.png using Guid(b9c9063bf8fce496086bcca4f85d9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07331e69334776f282d63428d43b2039') in 0.007973 seconds 
+  Import took 0.010807 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_5.asset
-  artifactKey: Guid(e7fa63f99bfc9417b9ed23e45aeb1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_5.asset using Guid(e7fa63f99bfc9417b9ed23e45aeb1685) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77cb0328c10622b2c100ae169648e2ed') in 0.006406 seconds 
-  Import took 0.008683 seconds .
+  Time since last request: 6.634900 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 3.png
+  artifactKey: Guid(5db2c05705069414295b22888aca1de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 3.png using Guid(5db2c05705069414295b22888aca1de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef1de5db7cb8968b5f9d0476d8fa539') in 0.007206 seconds 
+  Import took 0.010002 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000134 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_17.asset
-  artifactKey: Guid(7f1764a47685b4861bf168ee3b3cf15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_17.asset using Guid(7f1764a47685b4861bf168ee3b3cf15f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b9dd0208d6e4c38b164a66b453ab35') in 0.006748 seconds 
-  Import took 0.009280 seconds .
+  Time since last request: 5.339443 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 2.png
+  artifactKey: Guid(df7fa5209cf87439f92927fe023e506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 2.png using Guid(df7fa5209cf87439f92927fe023e506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450f216134ccc359d07bf3748ae08714') in 0.009276 seconds 
+  Import took 0.012475 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_10.asset
-  artifactKey: Guid(5ba69615c1ba24c259e48b2cb14d1749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_10.asset using Guid(5ba69615c1ba24c259e48b2cb14d1749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c415ecb50c3bd98430a6ab1be617b431') in 0.007947 seconds 
-  Import took 0.010424 seconds .
+  Time since last request: 4.806985 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 1.png
+  artifactKey: Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 1.png using Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef8a3acbe4b28b10a437aa00807c66c') in 0.019088 seconds 
+  Import took 0.021965 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_8.asset
-  artifactKey: Guid(d0721be5f740c4d2d9f0a86976b683a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_8.asset using Guid(d0721be5f740c4d2d9f0a86976b683a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed39a65a99f880a88b1054a100cbc60e') in 0.007235 seconds 
-  Import took 0.009920 seconds .
+  Time since last request: 74.116355 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond.prefab
+  artifactKey: Guid(83e3a187b111348debb14f7756361398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond.prefab using Guid(83e3a187b111348debb14f7756361398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b00bfa049989e47d5d718233754471') in 0.007601 seconds 
+  Import took 0.010721 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_11.asset
-  artifactKey: Guid(989c8f88a75eb4634bf48c05864a6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_11.asset using Guid(989c8f88a75eb4634bf48c05864a6cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d46106ceddc980ddeb4966a9fb8703f') in 0.007624 seconds 
-  Import took 0.010247 seconds .
+  Time since last request: 35.517707 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 4.png
+  artifactKey: Guid(b933c3b7c3ee242428dd468804ee213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 4.png using Guid(b933c3b7c3ee242428dd468804ee213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3771ae4b2b3b927d1d0d113041076c9') in 0.012843 seconds 
+  Import took 0.015696 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_18.asset
-  artifactKey: Guid(1cd87954b24884a50a37751828a5810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_18.asset using Guid(1cd87954b24884a50a37751828a5810f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831c6e53979fed35ab2d99be6cd94ade') in 0.006467 seconds 
-  Import took 0.008880 seconds .
+  Time since last request: 25.335167 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 1.png
+  artifactKey: Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 1.png using Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635d3230131b6b825ac6459e97f61ec2') in 0.007335 seconds 
+  Import took 0.010287 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_19.asset
-  artifactKey: Guid(22e8da90648d8413c83eb6ff6d43491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_19.asset using Guid(22e8da90648d8413c83eb6ff6d43491c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2533895a6be6d642c800c4263337232') in 0.006759 seconds 
-  Import took 0.009327 seconds .
+  Time since last request: 12.554427 seconds.
+  path: Assets/MINE/Player/Prefab/iamond 1.png
+  artifactKey: Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/iamond 1.png using Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3535efb8c56d2d039aa47693c9be089') in 0.010208 seconds 
+  Import took 0.012969 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_14.asset
-  artifactKey: Guid(8834f4c0ba79a44d8b9065fcf0364be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_14.asset using Guid(8834f4c0ba79a44d8b9065fcf0364be1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856b6e8100a7b6aeb16d1cb637bb7941') in 0.006642 seconds 
-  Import took 0.009266 seconds .
+  Time since last request: 56.863528 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 1.png
+  artifactKey: Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 1.png using Guid(d766c46010eae420da7988a9953a888b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eacd79aa868e59e0b8cd3698348bd0fc') in 0.016738 seconds 
+  Import took 0.019471 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_4.asset
-  artifactKey: Guid(8c3694da33edd4d28b51f3b94a742c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_4.asset using Guid(8c3694da33edd4d28b51f3b94a742c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b112ec71ac8ffdccc2ef86f662847fb') in 0.006652 seconds 
-  Import took 0.009077 seconds .
+  Time since last request: 8.289179 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 2.png
+  artifactKey: Guid(df7fa5209cf87439f92927fe023e506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 2.png using Guid(df7fa5209cf87439f92927fe023e506c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cce48a1303a3bf0ead82972da4a110e') in 0.007301 seconds 
+  Import took 0.010156 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_20.asset
-  artifactKey: Guid(a617d75acf43f4d82b3d8ebc2b705821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_20.asset using Guid(a617d75acf43f4d82b3d8ebc2b705821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd1ac13e745e975c1f3dd60390f671d6') in 0.006677 seconds 
-  Import took 0.009229 seconds .
+  Time since last request: 7.250175 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 3.png
+  artifactKey: Guid(5db2c05705069414295b22888aca1de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 3.png using Guid(5db2c05705069414295b22888aca1de4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a393b959ce601d80aa2a58f1b0827bc') in 0.008216 seconds 
+  Import took 0.011551 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_16.asset
-  artifactKey: Guid(658ef5b18a0c24225b518fd0db297119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_16.asset using Guid(658ef5b18a0c24225b518fd0db297119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05974fbfb853d8ecec6e5e5737ffc7e4') in 0.006811 seconds 
-  Import took 0.009630 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_6.asset
-  artifactKey: Guid(5b442e0e78bf74dfda2a07c90b77c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_6.asset using Guid(5b442e0e78bf74dfda2a07c90b77c2b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb1c8602f0d26d72cffc8c15818f15e') in 0.006410 seconds 
-  Import took 0.009048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_0.asset
-  artifactKey: Guid(16c4a1fb771064a79873a29a1d32c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_0.asset using Guid(16c4a1fb771064a79873a29a1d32c8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0008ae8175eff9197a60b3e6b2d0b4a7') in 0.006821 seconds 
-  Import took 0.009484 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_12.asset
-  artifactKey: Guid(0a4747c45e2dc4d3a86cc216d78279fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_12.asset using Guid(0a4747c45e2dc4d3a86cc216d78279fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc0c72ab459ef1dffcc6e0f4584b5ddd') in 0.006637 seconds 
-  Import took 0.009140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_7.asset
-  artifactKey: Guid(0ae2923086ecb49fcbade3faed0fc29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_7.asset using Guid(0ae2923086ecb49fcbade3faed0fc29f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550d8030f7deb22d96a68d57bd02f66e') in 0.006459 seconds 
-  Import took 0.008816 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_1.asset
-  artifactKey: Guid(b2cddc6c3445b4400adae03eb52d576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_1.asset using Guid(b2cddc6c3445b4400adae03eb52d576f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8255c1d7daa6c39da20b456f520ce2ba') in 0.006444 seconds 
-  Import took 0.008915 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_22.asset
-  artifactKey: Guid(fdf8ba68e622443c682e7c8503af6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_22.asset using Guid(fdf8ba68e622443c682e7c8503af6578) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '335b8cf970fa11bd4e2b86c2ab536340') in 0.006392 seconds 
-  Import took 0.008654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/MINE/Art 1/Thesheet 2_2.asset
-  artifactKey: Guid(6501bb4043a214dac897c36ce330092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MINE/Art 1/Thesheet 2_2.asset using Guid(6501bb4043a214dac897c36ce330092f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35e68f5ff679384b190cb491f642c533') in 0.006397 seconds 
-  Import took 0.008755 seconds .
+  Time since last request: 7.687689 seconds.
+  path: Assets/MINE/Player/Prefab/IsometricDiamond 4.png
+  artifactKey: Guid(b933c3b7c3ee242428dd468804ee213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MINE/Player/Prefab/IsometricDiamond 4.png using Guid(b933c3b7c3ee242428dd468804ee213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf9b75640879c2b0c34bd10cfda02dd') in 0.009661 seconds 
+  Import took 0.012529 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameStart : MonoBehaviour
 {
     public Button startGameButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +16,6 @@ public class GameStart : MonoBehaviour
     }
    public void StartGame()
     {
-        SceneManager.LoadScene("Level 1");
+        SceneManager.LoadScene("Level 1");   
     }
 }

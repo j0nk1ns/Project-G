@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using Cinemachine;
 
 
 public class SnakeManager : MonoBehaviour
@@ -15,15 +15,14 @@ public class SnakeManager : MonoBehaviour
     
     float countUp = 0;
 
+    public CinemachineVirtualCamera vcam;
+    
+
     void Start()
     {
         CreateBodyParts(); 
-
-        vcam = GetComponent<CinemachineVirtualCamera>();
         
     }
-
-
 
     void FixedUpdate()
     {
@@ -31,35 +30,18 @@ public class SnakeManager : MonoBehaviour
         {
             CreateBodyParts();
         }
-        // ManageSnakeBody();
+  
         SnakeMovement();
     }
-
-    // void ManageSnakeBody()
-    // {
-    //     
-       
-    //     for (int i = 0; i < snakeBody.Count; i++)
-    //     {
-    //         if (snakeBody[i] == null)
-    //         {
-    //             snakeBody.RemoveAt(i);
-    //             i = i - 1;
-    //         }
-    //     }
-    //     if (snakeBody.Count == 0)
-    //     {
-    //         Destroy(this);
-    //     }
-       
-    // }
 
   void SnakeMovement()
     {
         snakeBody[0].GetComponent<Rigidbody2D>().velocity = snakeBody[0].transform.right * speed * Time.deltaTime * Input.GetAxis("Horizontal") ;
         if (Input.GetAxis("Vertical") != 0)
+        if (Input.GetAxis("Horizontal") != 0)
         {
             snakeBody[0].transform.Rotate(new Vector3(0, 0, -turnSpeed * Time.deltaTime * Input.GetAxis("Vertical")));
+            snakeBody[0].transform.Rotate(new Vector3(0, 0, -turnSpeed * Time.deltaTime * Input.GetAxis("Horizontal")));
         }
 
         if(snakeBody.Count > 1)
@@ -91,7 +73,7 @@ public class SnakeManager : MonoBehaviour
           snakeBody.Add(temp1);
           bodyParts.RemoveAt(0);
         }
-         MarkerManger marM = snakeBody[snakeBody.Count - 1].GetComponent<MarkerManger>();
+        MarkerManger marM = snakeBody[snakeBody.Count - 1].GetComponent<MarkerManger>();
         if (countUp == 0)
         {
             marM.ClearMarkerList();
@@ -112,6 +94,17 @@ public class SnakeManager : MonoBehaviour
           temp.GetComponent<MarkerManger>().ClearMarkerList();
           countUp = 0;
 
+        }
+        
+    }
+
+    IEnumerator CameraFollow()
+    {
+        yield return new WaitForSeconds(2);
+        if(snakeBody != null) 
+        {
+            var followSnake = GameObject.FindObjectsOfType<MarkerManger>();
+            vcam.Follow = followSnake[0].transform;
         }
         
     }

@@ -7,7 +7,7 @@ using Cinemachine;
 public class SnakeManager : MonoBehaviour
 {
     
-    public float distanceBetween = .2f;
+    private float distanceBetween = .2f;
     float speed = 280;
     float turnSpeed = 180;
     public List<GameObject> bodyParts = new List<GameObject>();
@@ -16,6 +16,9 @@ public class SnakeManager : MonoBehaviour
     float countUp = 0;
 
     public CinemachineVirtualCamera vcam;
+
+    float horizontal; 
+    float vertical;
     
 
     void Start()
@@ -32,6 +35,7 @@ public class SnakeManager : MonoBehaviour
         }
   
         SnakeMovement();
+
     }
 
   void SnakeMovement()
@@ -42,7 +46,10 @@ public class SnakeManager : MonoBehaviour
         {
             snakeBody[0].transform.Rotate(new Vector3(0, 0, -turnSpeed * Time.deltaTime * Input.GetAxis("Vertical")));
             snakeBody[0].transform.Rotate(new Vector3(0, 0, -turnSpeed * Time.deltaTime * Input.GetAxis("Horizontal")));
+
         }
+
+
 
         if(snakeBody.Count > 1)
         {   
@@ -52,6 +59,7 @@ public class SnakeManager : MonoBehaviour
                 snakeBody[i].transform.position = markM.MarkerList[0].position;
                 snakeBody[i].transform.rotation = markM.MarkerList[0].rotation;
                 markM.MarkerList.RemoveAt(0);
+
             }
         }
         

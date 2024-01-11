@@ -31,7 +31,7 @@ public class PlayerController2 : MonoBehaviour
         vertical = Input.GetAxis("Vertical");
 
 
-            Debug.Log (transform.childCount);
+        Debug.Log (transform.childCount);
 
         resetBoostTime ();
 		controllerManager (); 

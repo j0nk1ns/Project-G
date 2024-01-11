@@ -17,10 +17,6 @@ public class SnakeManager : MonoBehaviour
 
     public CinemachineVirtualCamera vcam;
 
-    float horizontal; 
-    float vertical;
-    
-
     void Start()
     {
         CreateBodyParts(); 
@@ -43,8 +39,9 @@ public class SnakeManager : MonoBehaviour
         snakeBody[0].GetComponent<Rigidbody2D>().velocity = snakeBody[0].transform.right * speed * Time.deltaTime * Input.GetAxis("Horizontal");
         if (Input.GetAxis("Horizontal") != 0)
         {
-            snakeBody[0].transform.Rotate(new Vector3(0, 0, -turnSpeed * Time.deltaTime * Input.GetAxis("Horizontal")));
+            snakeBody[0].transform.Rotate(new Vector3(0, 0, turnSpeed * Time.deltaTime * Input.GetAxis("Horizontal")));
         }
+        
         snakeBody[0].GetComponent<Rigidbody2D>().velocity = snakeBody[0].transform.right * speed * Time.deltaTime * Input.GetAxis("Vertical");
         if (Input.GetAxis("Vertical") != 0)
         {

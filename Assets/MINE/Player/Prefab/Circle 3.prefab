@@ -132,7 +132,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
-  health: 10
+  health: 0
 --- !u!58 &524844029785647925
 CircleCollider2D:
   m_ObjectHideFlags: 0

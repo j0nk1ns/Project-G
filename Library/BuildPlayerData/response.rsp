@@ -7,6 +7,7 @@
 -a="/Users/game5/Project-G/Library/PlayerScriptAssemblies/UnityEngine.UI.dll"
 -a="/Users/game5/Project-G/Library/PlayerScriptAssemblies/Unity.Mathematics.dll"
 -a="/Users/game5/Project-G/Library/PlayerScriptAssemblies/Unity.2D.IK.Runtime.dll"
+-a="/Users/game5/Project-G/Library/PlayerScriptAssemblies/Cinemachine.dll"
 -a="/Users/game5/Project-G/Library/PlayerScriptAssemblies/Unity.2D.Animation.Triangle.Runtime.dll"
 -a="/Users/game5/Project-G/Library/PlayerScriptAssemblies/Unity.2D.Animation.Runtime.dll"
 -a="/Users/game5/Project-G/Library/PlayerScriptAssemblies/Unity.2D.Common.Runtime.dll"

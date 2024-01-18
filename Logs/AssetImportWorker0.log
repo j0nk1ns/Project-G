@@ -1083,3 +1083,4 @@ Received Import Request.
 Start importing Assets/MINE/Scenes/Fonts/UIsprite/JazzCreateFontUI1024x512.png using Guid(d61d12d2d79f7244e9f4de798743e099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21e07203ac06b629f6dde5fc14657b66') in 0.724539 seconds 
   Import took 0.730307 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

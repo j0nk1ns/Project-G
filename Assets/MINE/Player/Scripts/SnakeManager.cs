@@ -30,39 +30,25 @@ public class SnakeManager : MonoBehaviour
             CreateBodyParts();
         }
   
-       // SnakeMovement();
+        SnakeMovement();
 
     }
 
-  //void SnakeMovement()
-    //{
-       // snakeBody[0].GetComponent<Rigidbody2D>().velocity = snakeBody[0].transform.right * speed * Time.deltaTime * Input.GetAxis("Horizontal");
-        //if (Input.GetAxis("Horizontal") != 0)
-       // {
-      //      snakeBody[0].transform.Rotate(new Vector3(0, 0, turnSpeed * Time.deltaTime * Input.GetAxis("Horizontal")));
-      //  }
+  void SnakeMovement()
+  {
+       if(snakeBody.Count > 1)
+       {   
+           for (int i = 1; i < snakeBody.Count; i++)
+           {
+              MarkerManger markM = snakeBody[i - 1].GetComponent<MarkerManger>();
+              snakeBody[i].transform.position = markM.MarkerList[0].position;
+              snakeBody[i].transform.rotation = markM.MarkerList[0].rotation;
+              markM.MarkerList.RemoveAt(0);
+
+            }
+       }
         
-       // snakeBody[0].GetComponent<Rigidbody2D>().velocity = snakeBody[0].transform.right * speed * Time.deltaTime * Input.GetAxis("Vertical");
-       // if (Input.GetAxis("Vertical") != 0)
-      //  {
-       //     snakeBody[0].transform.Rotate(new Vector3(0, 0, -turnSpeed * Time.deltaTime * Input.GetAxis("Vertical")));
-      //  }
-
-
-
-       // if(snakeBody.Count > 1)
-      //  {   
-      //      for (int i = 1; i < snakeBody.Count; i++)
-           // {
-       //         MarkerManger markM = snakeBody[i - 1].GetComponent<MarkerManger>();
-       //         snakeBody[i].transform.position = markM.MarkerList[0].position;
-       //         snakeBody[i].transform.rotation = markM.MarkerList[0].rotation;
-      //          markM.MarkerList.RemoveAt(0);
-
-           // }
-      //  }
-        
-  //  }
+   }
  
     void CreateBodyParts()
     {

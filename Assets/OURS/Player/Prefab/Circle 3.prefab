@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 5601088670342803254}
   - component: {fileID: 1457181137148011610}
   - component: {fileID: 3001547322407188800}
-  - component: {fileID: 4556427470340199058}
   - component: {fileID: 524844029785647925}
   m_Layer: 0
   m_Name: Circle 3
@@ -119,20 +118,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47599e319e07d48e99a171965420fc19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4556427470340199058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3930035029982499544}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 715d646c989f04839ac756337753856e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  maxHealth: 10
-  health: 0
 --- !u!58 &524844029785647925
 CircleCollider2D:
   m_ObjectHideFlags: 0

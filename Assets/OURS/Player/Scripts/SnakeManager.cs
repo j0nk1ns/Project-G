@@ -96,8 +96,10 @@ public class SnakeManager : MonoBehaviour
         yield return new WaitForSeconds(2);
         if(snakeBody != null) 
         {
+          
             var followSnake = GameObject.FindObjectsOfType<MarkerManger>();
             vcam.Follow = followSnake[0].transform;
+
         }
         
     }

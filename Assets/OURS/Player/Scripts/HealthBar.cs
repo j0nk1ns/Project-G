@@ -12,7 +12,7 @@ public class HealthBar : MonoBehaviour
     [SerializeField] private Image _healthBarFill;
     private Vector3 snakePos;
 
-    Quaternion spawnRot = Quaternion.Euler(0f, 0f, 0f;);
+    // Quaternion spawnRot = Quaternion.Euler(0f, 0f, 0f;);
 
     void Awake()
     {
@@ -40,10 +40,10 @@ public class HealthBar : MonoBehaviour
         _healthBarFill.fillAmount = targetFillAmount;
     }
 
-    Void LateUpdate()
-    {
-      Transform.rotaion = spawnRot;
-    }
+    // Void LateUpdate()
+    // {
+    //   Transform.rotaion = spawnRot;
+    // }
     
 
 

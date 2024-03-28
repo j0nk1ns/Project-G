@@ -9,7 +9,8 @@ public class HealthController : MonoBehaviour
     private float _currentHealth;
     [SerializeField] private Image _healthBarFill;
     //[SerializeField] private GameController gameController;
-    [SerializeField] private float _damageAmount; 
+    [SerializeField] private float _damageAmount,  _healthAmount;
+
 
     private void Awake()
     {
@@ -21,6 +22,11 @@ public class HealthController : MonoBehaviour
         if (collision.CompareTag("Obstacle"))
         {
             TakeDamage(_damageAmount);
+        }
+        else if (collision.CompareTag("Health"))
+        {
+            Heal(_healthAmount);
+            collision.gameObject.SetActive(false);
         }
     }
 
@@ -36,17 +42,19 @@ public class HealthController : MonoBehaviour
         UpdateHealthBar();
     }
 
+    private void Heal(float amount)
+    {
+        _currentHealth += amount;
+        _currentHealth = Mathf. Clamp(_currentHealth, 0, _maxHealth);
+        UpdateHealthBar();
+    }
+
+
     public void UpdateHealthBar()
     {       
         _healthBarFill.fillAmount = _currentHealth / _maxHealth;
     }
 
- public Transform child;
- 
- void Update ()
- {
-   child.transform.rotation = Quaternion.Euler (0.0f, 0.0f, gameObject.transform.rotation.z * -1.0f);
- }
 
 }
 

@@ -22,100 +22,100 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52533
+52597
 Successfully changed project path to: /Users/game5/Project-G
 Could not lock editor preferences. Preferences updates for this instance of Unity will not be saved./Users/game5/Project-G
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 38.68 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.27f1 (e759542391ea)
 [Subsystems] Discovering subsystems at path /Applications/2020.3.27f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/game5/Project-G/Assets
 GfxDevice: creating device client; threaded=0
-2024-05-29 13:15:56.468 Unity[7991:394621] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
-2024-05-29 13:15:56.468 Unity[7991:394621] Metal devices available: 1
-2024-05-29 13:15:56.468 Unity[7991:394621] 0: AMD Radeon Pro 5500 XT (high power)
-2024-05-29 13:15:56.468 Unity[7991:394621] Using device AMD Radeon Pro 5500 XT (high power)
+2024-05-29 13:24:52.206 Unity[8602:410048] iMac preferred device: AMD Radeon Pro 5500 XT (high power)
+2024-05-29 13:24:52.206 Unity[8602:410048] Metal devices available: 1
+2024-05-29 13:24:52.206 Unity[8602:410048] 0: AMD Radeon Pro 5500 XT (high power)
+2024-05-29 13:24:52.207 Unity[8602:410048] Using device AMD Radeon Pro 5500 XT (high power)
 Initializing Metal device caps: AMD Radeon Pro 5500 XT
 Initialize mono
 Mono path[0] = '/Applications/2020.3.27f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/2020.3.27f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56991
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56602
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/2020.3.27f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.000453 seconds.
+Registered in 0.000452 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 37.37 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.526 seconds
+- Completed reload, in  0.525 seconds
 Domain Reload Profiling:
-	ReloadAssembly (526ms)
+	ReloadAssembly (525ms)
 		BeginReloadAssembly (37ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (425ms)
+		EndReloadAssembly (424ms)
 			LoadAssemblies (36ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (155ms)
+			SetupTypeCache (156ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (165ms)
+			SetupLoadedEditorAssemblies (163ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
+				RefreshPlugins (38ms)
 				BeforeProcessingInitializeOnLoad (7ms)
-				ProcessInitializeOnLoadAttributes (91ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (89ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001767 seconds.
+Registered in 0.001812 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 36.15 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 36.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.029 seconds
+- Completed reload, in  1.036 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1030ms)
+	ReloadAssembly (1037ms)
 		BeginReloadAssembly (134ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (26ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (67ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (848ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
+			SetupTypeCache (310ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (301ms)
+			RebuildScriptCaches (57ms)
+			SetupLoadedEditorAssemblies (300ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
+				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (50ms)
-				ProcessInitializeOnLoadAttributes (197ms)
-				ProcessInitializeOnLoadMethodAttributes (14ms)
+				ProcessInitializeOnLoadAttributes (196ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.004214 seconds.
+Validating Project structure ... 0.003241 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.012203 seconds.
+Upgrading shader files ...0.011072 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -129,14 +129,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.38 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2410 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 223.6 MB.
 System memory in use after: 222.6 MB.
 
 Unloading 200 unused Assets to reduce memory usage. Loaded Objects now: 2877.
-Total: 2.972734 ms (FindLiveObjects: 0.174700 ms CreateObjectMapping: 0.098772 ms MarkObjects: 2.228350 ms  DeleteObjects: 0.470291 ms)
+Total: 3.012525 ms (FindLiveObjects: 0.168449 ms CreateObjectMapping: 0.092023 ms MarkObjects: 2.169259 ms  DeleteObjects: 0.582212 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -150,9 +150,1077 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/OURS/Enemes/Prefab/Fishy.prefab
-  artifactKey: Guid(eddd2e75b6e97486d8928b2d68f5966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/OURS/Enemes/Prefab/Fishy.prefab using Guid(eddd2e75b6e97486d8928b2d68f5966f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a32c155d2c7d7318c06e2121bc43e77') in 0.599655 seconds 
-  Import took 0.605526 seconds .
+  path: 
+  artifactKey: Guid(ec04236309b784b64b0b70ba6eb58e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(ec04236309b784b64b0b70ba6eb58e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID 'ec04236309b784b64b0b70ba6eb58e92')
+  ERROR: Unknown asset with GUID 'ec04236309b784b64b0b70ba6eb58e92'
+  Import took 0.002163 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 97.968345 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.753917 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.759812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013497 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.016233 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: 
+  artifactKey: Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9')
+  ERROR: Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9'
+  Import took 0.002123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.680328 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.686563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/OURS/Enemes/Other/Capsule.png
+  artifactKey: Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Enemes/Other/Capsule.png using Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006261 seconds  code(4) message(Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.008785 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077250 seconds.
+  path: 
+  artifactKey: Guid(f656a08ca74f94d3dbd0c5c560fe8386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(f656a08ca74f94d3dbd0c5c560fe8386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID 'f656a08ca74f94d3dbd0c5c560fe8386')
+  ERROR: Unknown asset with GUID 'f656a08ca74f94d3dbd0c5c560fe8386'
+  Import took 0.003133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.220861 seconds.
+  path: Assets/OURS/Art/Other Things/HexagonPointed-Top.png
+  artifactKey: Guid(d5946c61628c24ef7ae1e3b8fb780f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Other Things/HexagonPointed-Top.png using Guid(d5946c61628c24ef7ae1e3b8fb780f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.007054 seconds  code(4) message(Build asset version error: assets/ours/art/other things/hexagonpointed-top.png in SourceAssetDB has modification time of '2022-02-08T13:07:18Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/other things/hexagonpointed-top.png in SourceAssetDB has modification time of '2022-02-08T13:07:18Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.010440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 248.638806 seconds.
+  path: Assets/OURS/Art/Tiles
+  artifactKey: Guid(680dbdca589694d388945d1c15eeba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Tiles using Guid(680dbdca589694d388945d1c15eeba4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000148 seconds  code(4) message(Build asset version error: assets/ours/art/tiles.meta in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/tiles.meta in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.002659 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.719206 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000023 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.002506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.145900 seconds.
+  path: 
+  artifactKey: Guid(db659cce1d32047f582619ed3ba3ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(db659cce1d32047f582619ed3ba3ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000024 seconds  code(3) message(Unknown asset with GUID 'db659cce1d32047f582619ed3ba3ddbe')
+  ERROR: Unknown asset with GUID 'db659cce1d32047f582619ed3ba3ddbe'
+  Import took 0.002609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: 
+  artifactKey: Guid(7583a0eea43fc452cb6648e83ee29173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7583a0eea43fc452cb6648e83ee29173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '7583a0eea43fc452cb6648e83ee29173')
+  ERROR: Unknown asset with GUID '7583a0eea43fc452cb6648e83ee29173'
+  Import took 0.001998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: 
+  artifactKey: Guid(9c2303be17f4e45ff88513b77685ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c2303be17f4e45ff88513b77685ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000015 seconds  code(3) message(Unknown asset with GUID '9c2303be17f4e45ff88513b77685ca5b')
+  ERROR: Unknown asset with GUID '9c2303be17f4e45ff88513b77685ca5b'
+  Import took 0.001790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: 
+  artifactKey: Guid(96883bf2444b9423a84f655229fe123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(96883bf2444b9423a84f655229fe123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000015 seconds  code(3) message(Unknown asset with GUID '96883bf2444b9423a84f655229fe123a')
+  ERROR: Unknown asset with GUID '96883bf2444b9423a84f655229fe123a'
+  Import took 0.001751 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: 
+  artifactKey: Guid(5284a7772f41f4ced880a2fe5897b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5284a7772f41f4ced880a2fe5897b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID '5284a7772f41f4ced880a2fe5897b0f0')
+  ERROR: Unknown asset with GUID '5284a7772f41f4ced880a2fe5897b0f0'
+  Import took 0.001766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: 
+  artifactKey: Guid(d2ca403fddbcd4c04812b34da776c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d2ca403fddbcd4c04812b34da776c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID 'd2ca403fddbcd4c04812b34da776c008')
+  ERROR: Unknown asset with GUID 'd2ca403fddbcd4c04812b34da776c008'
+  Import took 0.001771 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.080342 seconds.
+  path: 
+  artifactKey: Guid(db659cce1d32047f582619ed3ba3ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(db659cce1d32047f582619ed3ba3ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID 'db659cce1d32047f582619ed3ba3ddbe')
+  ERROR: Unknown asset with GUID 'db659cce1d32047f582619ed3ba3ddbe'
+  Import took 0.002493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: 
+  artifactKey: Guid(7583a0eea43fc452cb6648e83ee29173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7583a0eea43fc452cb6648e83ee29173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '7583a0eea43fc452cb6648e83ee29173')
+  ERROR: Unknown asset with GUID '7583a0eea43fc452cb6648e83ee29173'
+  Import took 0.001959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.001934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: 
+  artifactKey: Guid(9c2303be17f4e45ff88513b77685ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c2303be17f4e45ff88513b77685ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '9c2303be17f4e45ff88513b77685ca5b')
+  ERROR: Unknown asset with GUID '9c2303be17f4e45ff88513b77685ca5b'
+  Import took 0.001886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: 
+  artifactKey: Guid(96883bf2444b9423a84f655229fe123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(96883bf2444b9423a84f655229fe123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '96883bf2444b9423a84f655229fe123a')
+  ERROR: Unknown asset with GUID '96883bf2444b9423a84f655229fe123a'
+  Import took 0.001911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000112 seconds.
+  path: 
+  artifactKey: Guid(5284a7772f41f4ced880a2fe5897b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5284a7772f41f4ced880a2fe5897b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000031 seconds  code(3) message(Unknown asset with GUID '5284a7772f41f4ced880a2fe5897b0f0')
+  ERROR: Unknown asset with GUID '5284a7772f41f4ced880a2fe5897b0f0'
+  Import took 0.001867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: 
+  artifactKey: Guid(d2ca403fddbcd4c04812b34da776c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d2ca403fddbcd4c04812b34da776c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID 'd2ca403fddbcd4c04812b34da776c008')
+  ERROR: Unknown asset with GUID 'd2ca403fddbcd4c04812b34da776c008'
+  Import took 0.001870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.057798 seconds.
+  path: Assets/OURS/Enemes/Other/Capsule.png
+  artifactKey: Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Enemes/Other/Capsule.png using Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005839 seconds  code(4) message(Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.008736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: 
+  artifactKey: Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9')
+  ERROR: Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9'
+  Import took 0.002075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.087334 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.002524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.593633 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000030 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.002695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.608668 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016747 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.019669 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010107 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.012706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013039 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.015559 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.120208 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019554 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.022392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.009920 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.012443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000027 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.002476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011760 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.014172 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.523845 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.017779 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.020712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010107 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.012504 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.001859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011093 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.013387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.682277 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012380 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.015466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011124 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.013838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000129 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.002199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.856905 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011461 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.014473 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.002021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.509641 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010686 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.013623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000020 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.001937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.108492 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011258 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.014298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000015 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.001917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.868779 seconds.
+  path: 
+  artifactKey: Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(42380c6bab98c4752b3e941435467f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID '42380c6bab98c4752b3e941435467f70')
+  ERROR: Unknown asset with GUID '42380c6bab98c4752b3e941435467f70'
+  Import took 0.002531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.024217 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016837 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.019871 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.010397 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.012823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.012687 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.015196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.582161 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016921 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.020471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011683 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.014144 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000121 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011232 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.013760 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.968159 seconds.
+  path: Assets/OURS/Enemes/Other/Capsule.png
+  artifactKey: Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Enemes/Other/Capsule.png using Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.005877 seconds  code(4) message(Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.008742 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: 
+  artifactKey: Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9')
+  ERROR: Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9'
+  Import took 0.002165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.734846 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.016468 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.019396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011898 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.014322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011133 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.013531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.063852 seconds.
+  path: Assets/OURS/Enemes/Other/Capsule.png
+  artifactKey: Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Enemes/Other/Capsule.png using Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006556 seconds  code(4) message(Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.009630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: 
+  artifactKey: Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9')
+  ERROR: Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9'
+  Import took 0.002032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.988516 seconds.
+  path: Assets/OURS/Art/Other Things/HexagonPointed-Top.png
+  artifactKey: Guid(d5946c61628c24ef7ae1e3b8fb780f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Other Things/HexagonPointed-Top.png using Guid(d5946c61628c24ef7ae1e3b8fb780f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006683 seconds  code(4) message(Build asset version error: assets/ours/art/other things/hexagonpointed-top.png in SourceAssetDB has modification time of '2022-02-08T13:07:18Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/other things/hexagonpointed-top.png in SourceAssetDB has modification time of '2022-02-08T13:07:18Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.009740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.571946 seconds.
+  path: Assets/OURS/Art/Other Things/HexagonPointed-Top.png
+  artifactKey: Guid(d5946c61628c24ef7ae1e3b8fb780f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Other Things/HexagonPointed-Top.png using Guid(d5946c61628c24ef7ae1e3b8fb780f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.008250 seconds  code(4) message(Build asset version error: assets/ours/art/other things/hexagonpointed-top.png in SourceAssetDB has modification time of '2022-02-08T13:07:18Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/other things/hexagonpointed-top.png in SourceAssetDB has modification time of '2022-02-08T13:07:18Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.011110 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.643653 seconds.
+  path: 
+  artifactKey: Guid(575bfd03d174a4299880545df2a997af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(575bfd03d174a4299880545df2a997af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '575bfd03d174a4299880545df2a997af')
+  ERROR: Unknown asset with GUID '575bfd03d174a4299880545df2a997af'
+  Import took 0.002442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
+  artifactKey: Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset using Guid(fbef3c704dce48f08a44612d6c856c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c973cc116ecb21210af400c65aa57860') in 0.533593 seconds 
+  Import took 0.539089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+  artifactKey: Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png using Guid(a0fc465d6cf04254a2938578735e2383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a33629ad0103a376de0b297307e9ba4') in 0.007239 seconds 
+  Import took 0.010217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.501138 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+  artifactKey: Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd using Guid(7631f4eff8f74ed38eb3eb9db17134e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f3f22f9b0c2e09daf4bff7dd464515') in 0.659114 seconds 
+  Import took 0.664295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.304655 seconds.
+  path: 
+  artifactKey: Guid(5abfc8404cbe0442e87837863c559777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5abfc8404cbe0442e87837863c559777) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '5abfc8404cbe0442e87837863c559777')
+  ERROR: Unknown asset with GUID '5abfc8404cbe0442e87837863c559777'
+  Import took 0.002509 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.467739 seconds.
+  path: 
+  artifactKey: Guid(6a7defc93824e4caf86f61e7d38e32f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(6a7defc93824e4caf86f61e7d38e32f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000031 seconds  code(3) message(Unknown asset with GUID '6a7defc93824e4caf86f61e7d38e32f1')
+  ERROR: Unknown asset with GUID '6a7defc93824e4caf86f61e7d38e32f1'
+  Import took 0.002769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.138615 seconds.
+  path: Assets/OURS/Enemes/Other/Capsule.png
+  artifactKey: Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Enemes/Other/Capsule.png using Guid(56e42a224b73946109b91d2037d80621) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.006302 seconds  code(4) message(Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/enemes/other/capsule.png in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.009437 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: 
+  artifactKey: Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5a9bdbaa83d7641f081216219f2256c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000020 seconds  code(3) message(Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9')
+  ERROR: Unknown asset with GUID '5a9bdbaa83d7641f081216219f2256c9'
+  Import took 0.002334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.260944 seconds.
+  path: 
+  artifactKey: Guid(f656a08ca74f94d3dbd0c5c560fe8386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(f656a08ca74f94d3dbd0c5c560fe8386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID 'f656a08ca74f94d3dbd0c5c560fe8386')
+  ERROR: Unknown asset with GUID 'f656a08ca74f94d3dbd0c5c560fe8386'
+  Import took 0.002788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.940609 seconds.
+  path: 
+  artifactKey: Guid(e54e4adad021f4d9995613ca4b5848aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(e54e4adad021f4d9995613ca4b5848aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID 'e54e4adad021f4d9995613ca4b5848aa')
+  ERROR: Unknown asset with GUID 'e54e4adad021f4d9995613ca4b5848aa'
+  Import took 0.002579 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.924053 seconds.
+  path: Assets/OURS/Scripts
+  artifactKey: Guid(17f5bedc4813246e7b501943457b1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Scripts using Guid(17f5bedc4813246e7b501943457b1bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000152 seconds  code(4) message(Build asset version error: assets/ours/scripts.meta in SourceAssetDB has modification time of '2024-03-27T17:58:11Z' while content on disk has modification time of '0001-01-01T00:00:00Z')
+  ERROR: Build asset version error: assets/ours/scripts.meta in SourceAssetDB has modification time of '2024-03-27T17:58:11Z' while content on disk has modification time of '0001-01-01T00:00:00Z'
+  Import took 0.002677 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.900789 seconds.
+  path: 
+  artifactKey: Guid(f140483f2a46747a189d189f6ca812fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(f140483f2a46747a189d189f6ca812fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000020 seconds  code(3) message(Unknown asset with GUID 'f140483f2a46747a189d189f6ca812fc')
+  ERROR: Unknown asset with GUID 'f140483f2a46747a189d189f6ca812fc'
+  Import took 0.002907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.287565 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.018812 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.022006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011750 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.014252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.011463 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.014141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.613367 seconds.
+  path: Assets/OURS/Art/Images/UnderwaterFantasy/Scripts/Done_BGScroller.cs
+  artifactKey: Guid(f082fc32369ba4f9882f0eb561e6be77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/UnderwaterFantasy/Scripts/Done_BGScroller.cs using Guid(f082fc32369ba4f9882f0eb561e6be77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.245099 seconds  code(4) message(Build asset version error: assets/ours/art/images/underwaterfantasy/scripts/done_bgscroller.cs in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/underwaterfantasy/scripts/done_bgscroller.cs in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.249829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.398568 seconds.
+  path: Assets/OURS/Art/Images/UnderwaterFantasy
+  artifactKey: Guid(644c0d790802846a2b8835ffa470b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/UnderwaterFantasy using Guid(644c0d790802846a2b8835ffa470b48e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000155 seconds  code(4) message(Build asset version error: assets/ours/art/images/underwaterfantasy.meta in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/underwaterfantasy.meta in SourceAssetDB has modification time of '2024-04-03T17:57:46Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.002733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.853007 seconds.
+  path: 
+  artifactKey: Guid(cdf48f12ecea741509a443fdc61c045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cdf48f12ecea741509a443fdc61c045a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000035 seconds  code(3) message(Unknown asset with GUID 'cdf48f12ecea741509a443fdc61c045a')
+  ERROR: Unknown asset with GUID 'cdf48f12ecea741509a443fdc61c045a'
+  Import took 0.002587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251263 seconds.
+  path: 
+  artifactKey: Guid(67f0588e41adc43339221659d37ecbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(67f0588e41adc43339221659d37ecbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000022 seconds  code(3) message(Unknown asset with GUID '67f0588e41adc43339221659d37ecbe7')
+  ERROR: Unknown asset with GUID '67f0588e41adc43339221659d37ecbe7'
+  Import took 0.002604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: 
+  artifactKey: Guid(03b8a4ae4342c4db091864062a1f0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(03b8a4ae4342c4db091864062a1f0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '03b8a4ae4342c4db091864062a1f0de5')
+  ERROR: Unknown asset with GUID '03b8a4ae4342c4db091864062a1f0de5'
+  Import took 0.001832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: 
+  artifactKey: Guid(3dbdb1e85026c4790bf2901473a388a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3dbdb1e85026c4790bf2901473a388a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000020 seconds  code(3) message(Unknown asset with GUID '3dbdb1e85026c4790bf2901473a388a5')
+  ERROR: Unknown asset with GUID '3dbdb1e85026c4790bf2901473a388a5'
+  Import took 0.001902 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: 
+  artifactKey: Guid(b6a9d6f86a972480eaedb111c4f540ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b6a9d6f86a972480eaedb111c4f540ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID 'b6a9d6f86a972480eaedb111c4f540ad')
+  ERROR: Unknown asset with GUID 'b6a9d6f86a972480eaedb111c4f540ad'
+  Import took 0.001709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: 
+  artifactKey: Guid(e37c515928e904d25ad1775c9cb797f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(e37c515928e904d25ad1775c9cb797f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID 'e37c515928e904d25ad1775c9cb797f5')
+  ERROR: Unknown asset with GUID 'e37c515928e904d25ad1775c9cb797f5'
+  Import took 0.001657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: 
+  artifactKey: Guid(d87919ee0bcb341a6a7442ee6a954454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d87919ee0bcb341a6a7442ee6a954454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID 'd87919ee0bcb341a6a7442ee6a954454')
+  ERROR: Unknown asset with GUID 'd87919ee0bcb341a6a7442ee6a954454'
+  Import took 0.001691 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: 
+  artifactKey: Guid(dc29b4c85aca54948bff6858fe44e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(dc29b4c85aca54948bff6858fe44e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID 'dc29b4c85aca54948bff6858fe44e4aa')
+  ERROR: Unknown asset with GUID 'dc29b4c85aca54948bff6858fe44e4aa'
+  Import took 0.001709 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: 
+  artifactKey: Guid(8f1ecb0ec336b4a3091788bc40b3c092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8f1ecb0ec336b4a3091788bc40b3c092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID '8f1ecb0ec336b4a3091788bc40b3c092')
+  ERROR: Unknown asset with GUID '8f1ecb0ec336b4a3091788bc40b3c092'
+  Import took 0.001874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: 
+  artifactKey: Guid(458e27d077d0749da98a6d27bf9fd1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(458e27d077d0749da98a6d27bf9fd1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000018 seconds  code(3) message(Unknown asset with GUID '458e27d077d0749da98a6d27bf9fd1e2')
+  ERROR: Unknown asset with GUID '458e27d077d0749da98a6d27bf9fd1e2'
+  Import took 0.001778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000127 seconds.
+  path: 
+  artifactKey: Guid(cbdce5e6cde834ca9a97e069664ef6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cbdce5e6cde834ca9a97e069664ef6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000023 seconds  code(3) message(Unknown asset with GUID 'cbdce5e6cde834ca9a97e069664ef6b3')
+  ERROR: Unknown asset with GUID 'cbdce5e6cde834ca9a97e069664ef6b3'
+  Import took 0.002004 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: 
+  artifactKey: Guid(90a9f9e460bbf4ff3b0a1f26b9c2fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(90a9f9e460bbf4ff3b0a1f26b9c2fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000035 seconds  code(3) message(Unknown asset with GUID '90a9f9e460bbf4ff3b0a1f26b9c2fb41')
+  ERROR: Unknown asset with GUID '90a9f9e460bbf4ff3b0a1f26b9c2fb41'
+  Import took 0.002087 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.148753 seconds.
+  path: 
+  artifactKey: Guid(db659cce1d32047f582619ed3ba3ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(db659cce1d32047f582619ed3ba3ddbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000023 seconds  code(3) message(Unknown asset with GUID 'db659cce1d32047f582619ed3ba3ddbe')
+  ERROR: Unknown asset with GUID 'db659cce1d32047f582619ed3ba3ddbe'
+  Import took 0.002861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: 
+  artifactKey: Guid(7583a0eea43fc452cb6648e83ee29173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(7583a0eea43fc452cb6648e83ee29173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000015 seconds  code(3) message(Unknown asset with GUID '7583a0eea43fc452cb6648e83ee29173')
+  ERROR: Unknown asset with GUID '7583a0eea43fc452cb6648e83ee29173'
+  Import took 0.001721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: 
+  artifactKey: Guid(9c2303be17f4e45ff88513b77685ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(9c2303be17f4e45ff88513b77685ca5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000039 seconds  code(3) message(Unknown asset with GUID '9c2303be17f4e45ff88513b77685ca5b')
+  ERROR: Unknown asset with GUID '9c2303be17f4e45ff88513b77685ca5b'
+  Import took 0.002120 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: 
+  artifactKey: Guid(96883bf2444b9423a84f655229fe123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(96883bf2444b9423a84f655229fe123a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000025 seconds  code(3) message(Unknown asset with GUID '96883bf2444b9423a84f655229fe123a')
+  ERROR: Unknown asset with GUID '96883bf2444b9423a84f655229fe123a'
+  Import took 0.001848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: 
+  artifactKey: Guid(5284a7772f41f4ced880a2fe5897b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5284a7772f41f4ced880a2fe5897b0f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID '5284a7772f41f4ced880a2fe5897b0f0')
+  ERROR: Unknown asset with GUID '5284a7772f41f4ced880a2fe5897b0f0'
+  Import took 0.001675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: 
+  artifactKey: Guid(d2ca403fddbcd4c04812b34da776c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d2ca403fddbcd4c04812b34da776c008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000015 seconds  code(3) message(Unknown asset with GUID 'd2ca403fddbcd4c04812b34da776c008')
+  ERROR: Unknown asset with GUID 'd2ca403fddbcd4c04812b34da776c008'
+  Import took 0.001640 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.146025 seconds.
+  path: 
+  artifactKey: Guid(5494860e028944d80a09c6e1232eb74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(5494860e028944d80a09c6e1232eb74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID '5494860e028944d80a09c6e1232eb74b')
+  ERROR: Unknown asset with GUID '5494860e028944d80a09c6e1232eb74b'
+  Import took 0.002524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.013625 seconds.
+  path: 
+  artifactKey: Guid(c47ee7a71e74f4c75bf272a6738bd20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c47ee7a71e74f4c75bf272a6738bd20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000023 seconds  code(3) message(Unknown asset with GUID 'c47ee7a71e74f4c75bf272a6738bd20e')
+  ERROR: Unknown asset with GUID 'c47ee7a71e74f4c75bf272a6738bd20e'
+  Import took 0.002867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.684358 seconds.
+  path: 
+  artifactKey: Guid(c47ee7a71e74f4c75bf272a6738bd20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(c47ee7a71e74f4c75bf272a6738bd20e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000041 seconds  code(3) message(Unknown asset with GUID 'c47ee7a71e74f4c75bf272a6738bd20e')
+  ERROR: Unknown asset with GUID 'c47ee7a71e74f4c75bf272a6738bd20e'
+  Import took 0.003800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.900908 seconds.
+  path: 
+  artifactKey: Guid(67f0588e41adc43339221659d37ecbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(67f0588e41adc43339221659d37ecbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000020 seconds  code(3) message(Unknown asset with GUID '67f0588e41adc43339221659d37ecbe7')
+  ERROR: Unknown asset with GUID '67f0588e41adc43339221659d37ecbe7'
+  Import took 0.002666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: 
+  artifactKey: Guid(03b8a4ae4342c4db091864062a1f0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(03b8a4ae4342c4db091864062a1f0de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000019 seconds  code(3) message(Unknown asset with GUID '03b8a4ae4342c4db091864062a1f0de5')
+  ERROR: Unknown asset with GUID '03b8a4ae4342c4db091864062a1f0de5'
+  Import took 0.001763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: 
+  artifactKey: Guid(3dbdb1e85026c4790bf2901473a388a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(3dbdb1e85026c4790bf2901473a388a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000016 seconds  code(3) message(Unknown asset with GUID '3dbdb1e85026c4790bf2901473a388a5')
+  ERROR: Unknown asset with GUID '3dbdb1e85026c4790bf2901473a388a5'
+  Import took 0.001681 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: 
+  artifactKey: Guid(b6a9d6f86a972480eaedb111c4f540ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(b6a9d6f86a972480eaedb111c4f540ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID 'b6a9d6f86a972480eaedb111c4f540ad')
+  ERROR: Unknown asset with GUID 'b6a9d6f86a972480eaedb111c4f540ad'
+  Import took 0.002152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: 
+  artifactKey: Guid(e37c515928e904d25ad1775c9cb797f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(e37c515928e904d25ad1775c9cb797f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000025 seconds  code(3) message(Unknown asset with GUID 'e37c515928e904d25ad1775c9cb797f5')
+  ERROR: Unknown asset with GUID 'e37c515928e904d25ad1775c9cb797f5'
+  Import took 0.001926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: 
+  artifactKey: Guid(d87919ee0bcb341a6a7442ee6a954454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(d87919ee0bcb341a6a7442ee6a954454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000019 seconds  code(3) message(Unknown asset with GUID 'd87919ee0bcb341a6a7442ee6a954454')
+  ERROR: Unknown asset with GUID 'd87919ee0bcb341a6a7442ee6a954454'
+  Import took 0.001842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: 
+  artifactKey: Guid(dc29b4c85aca54948bff6858fe44e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(dc29b4c85aca54948bff6858fe44e4aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000017 seconds  code(3) message(Unknown asset with GUID 'dc29b4c85aca54948bff6858fe44e4aa')
+  ERROR: Unknown asset with GUID 'dc29b4c85aca54948bff6858fe44e4aa'
+  Import took 0.001747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: 
+  artifactKey: Guid(8f1ecb0ec336b4a3091788bc40b3c092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(8f1ecb0ec336b4a3091788bc40b3c092) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000015 seconds  code(3) message(Unknown asset with GUID '8f1ecb0ec336b4a3091788bc40b3c092')
+  ERROR: Unknown asset with GUID '8f1ecb0ec336b4a3091788bc40b3c092'
+  Import took 0.001732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: 
+  artifactKey: Guid(458e27d077d0749da98a6d27bf9fd1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(458e27d077d0749da98a6d27bf9fd1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000026 seconds  code(3) message(Unknown asset with GUID '458e27d077d0749da98a6d27bf9fd1e2')
+  ERROR: Unknown asset with GUID '458e27d077d0749da98a6d27bf9fd1e2'
+  Import took 0.002023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: 
+  artifactKey: Guid(cbdce5e6cde834ca9a97e069664ef6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(cbdce5e6cde834ca9a97e069664ef6b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID 'cbdce5e6cde834ca9a97e069664ef6b3')
+  ERROR: Unknown asset with GUID 'cbdce5e6cde834ca9a97e069664ef6b3'
+  Import took 0.002038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: 
+  artifactKey: Guid(90a9f9e460bbf4ff3b0a1f26b9c2fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing  using Guid(90a9f9e460bbf4ff3b0a1f26b9c2fb41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000021 seconds  code(3) message(Unknown asset with GUID '90a9f9e460bbf4ff3b0a1f26b9c2fb41')
+  ERROR: Unknown asset with GUID '90a9f9e460bbf4ff3b0a1f26b9c2fb41'
+  Import took 0.001889 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.610458 seconds.
+  path: Assets/OURS/Art/Images/End.png
+  artifactKey: Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/End.png using Guid(cdfb7deb6f8e446be93e599f0c7309e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.019114 seconds  code(4) message(Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/end.png in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.022584 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png
+  artifactKey: Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/—Pngtree—blue bubble button_5396974.png using Guid(84cd671348bb448ac92eaa1c6316e9a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.013813 seconds  code(4) message(Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/—pngtree—blue bubble button_5396974.png in SourceAssetDB has modification time of '2024-05-08T17:39:26Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.016275 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg
+  artifactKey: Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Art/Images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg using Guid(7db36afc337084862a4c62811c12a06d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.014835 seconds  code(4) message(Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/art/images/pixel-art-keyboard-arrow-keys-keyboard-play-keys-icon-for-8bit-game-on-white-background-vector.jpeg in SourceAssetDB has modification time of '2024-05-24T13:54:36Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.017242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.972647 seconds.
+  path: Assets/OURS/Scenes/Other/GameObject.controller
+  artifactKey: Guid(483b0fd5a817940f58c05726adf4dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Scenes/Other/GameObject.controller using Guid(483b0fd5a817940f58c05726adf4dcfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.230715 seconds  code(4) message(Build asset version error: assets/ours/scenes/other/gameobject.controller in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z')
+  ERROR: Build asset version error: assets/ours/scenes/other/gameobject.controller in SourceAssetDB has modification time of '2024-05-08T17:38:15Z' while content on disk has modification time of '2024-05-29T17:25:21Z'
+  Import took 0.235179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.404762 seconds.
+  path: Assets/OURS/Scenes/Game.unity
+  artifactKey: Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Scenes/Game.unity using Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000394 seconds  code(4) message(Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:37:19Z')
+  ERROR: Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:37:19Z'
+  Import took 0.002912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.633589 seconds.
+  path: Assets/OURS/Scenes/Game.unity
+  artifactKey: Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Scenes/Game.unity using Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000386 seconds  code(4) message(Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:40:43Z')
+  ERROR: Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:40:43Z'
+  Import took 0.003246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 634.234570 seconds.
+  path: Assets/OURS/Scenes/Game.unity
+  artifactKey: Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Scenes/Game.unity using Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000429 seconds  code(4) message(Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:51:17Z')
+  ERROR: Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:51:17Z'
+  Import took 0.003078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 134.864841 seconds.
+  path: Assets/OURS/Scenes/Game.unity
+  artifactKey: Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OURS/Scenes/Game.unity using Guid(b2d228db5aee04716b98cd8eeba822db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.000367 seconds  code(4) message(Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:53:32Z')
+  ERROR: Build asset version error: assets/ours/scenes/game.unity in SourceAssetDB has modification time of '2024-05-08T18:05:55Z' while content on disk has modification time of '2024-05-29T17:53:32Z'
+  Import took 0.002886 seconds .
+

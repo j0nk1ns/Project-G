@@ -96,9 +96,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d05f1b57cae844b790f5672aa321cef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 2269444264297354639, guid: 45d771d2bed84493fa7a1ad953914f68, type: 3}
-  speed: 2
-  distance: 10
+  player: {fileID: 8861707981717356308, guid: 45d771d2bed84493fa7a1ad953914f68, type: 3}
+  speed: 8
+  distanceBetween: 10
 --- !u!58 &1435491154456977679
 CircleCollider2D:
   m_ObjectHideFlags: 0

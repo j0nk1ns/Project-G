@@ -5,13 +5,31 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 1
+    path: Assets/OURS/Scenes/MenuScreen.unity
+    guid: 4ba25eac4c0524172b33a0c7ecd4a2bd
+  - enabled: 1
+    path: Assets/OURS/Scenes/Options Menu 1.unity
+    guid: 833523bc49acb47feacbb1ee2d921cdf
+  - enabled: 1
+    path: Assets/OURS/Scenes/Options Menu.unity
+    guid: 37a9924b174954baba4982e5524dbc1a
+  - enabled: 1
+    path: Assets/OURS/Scenes/Pause Menu.unity
+    guid: 6fe9ae092704a44c3b943ff22791d791
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/OURS/Scenes/Game.unity
     guid: b2d228db5aee04716b98cd8eeba822db
+  - enabled: 1
+    path: Assets/OURS/Scenes/Game Over.unity
+    guid: 92ae3f480181342c78d7dbbcea7bc27b
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/OURS/Scenes/Credit Scene.unity
+    guid: 4cb2d8d5b16ac43169e7dfbb5bd24fad
   m_configObjects: {}

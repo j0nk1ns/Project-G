@@ -6,19 +6,17 @@ using UnityEngine.SceneManagement;
 public class EndScreen : MonoBehaviour
 {
     
-   private void OnCollisionEnter2D(Collision2D collision)
-	{
-		if(collision.gameObject.tag == "Player")
-		{
-			SceneManager.LoadScene("Credit Scene");
-		}
-	}
+   void Update()
+   {
+	 transform.Translate(transform.forward * Time.deltaTime * 2f);
+   }
 
     
-	
+	private void OnTriggerEnter(Collider other)
+	{
+		if (other.tag == "CreditScene" )
 
-
-
-
+		SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+	}
 
 }

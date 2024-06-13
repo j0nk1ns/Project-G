@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -8392591137779031885}
   - component: {fileID: 8340928797373061981}
   - component: {fileID: 5531754285245901350}
+  - component: {fileID: 5597153635363692173}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Player
@@ -161,9 +162,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c1b4e4fdb4a7a49ef9e3fe13871e0339, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  healthBarFill: {fileID: 1864066661238870412}
+  damageAmount: 50
+  healthAmount: 100
+--- !u!114 &5597153635363692173
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8861707981717356308}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 715d646c989f04839ac756337753856e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   _healthBarFill: {fileID: 1864066661238870412}
-  _damageAmount: 20
-  _healthAmount: 100
 --- !u!1001 &7795117891089074336
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -282,7 +296,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7201270986920192549
+--- !u!114 &1476325862216935648
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

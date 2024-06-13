@@ -5,54 +5,54 @@ using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
 {
-    private float _maxHealth = 100;
-    private float _currentHealth;
-    [SerializeField] private Image _healthBarFill;
+    private float maxHealth = 100;
+    private float currentHealth;
+    [SerializeField] private Image healthBarFill;
     //[SerializeField] private GameController gameController;
-    [SerializeField] private float _damageAmount,  _healthAmount;
+    [SerializeField] private float damageAmount,  healthAmount;
 
 
     private void Awake()
     {
-        _currentHealth = _maxHealth;
+        currentHealth = maxHealth;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Obstacle"))
         {
-            TakeDamage(_damageAmount);
+            TakeDamage(damageAmount);
         }
         else if (collision.CompareTag("Health"))
         {
-            Heal(_healthAmount);
+            Heal(healthAmount);
             collision.gameObject.SetActive(false);
         }
     }
 
     private void TakeDamage(float amount)
     {
-        _currentHealth -= amount;
-        _currentHealth=Mathf.Clamp(_currentHealth, 0, _maxHealth);
+        currentHealth -= amount;
+        currentHealth=Mathf.Clamp(currentHealth, 0, maxHealth);
         
-        if (_currentHealth == 0 ) 
+        if (currentHealth == 0 ) 
         {
-           // _gameController.Die();
+          //gameController.Die();
         }
         UpdateHealthBar();
     }
 
     private void Heal(float amount)
     {
-        _currentHealth += amount;
-        _currentHealth = Mathf. Clamp(_currentHealth, 0, _maxHealth);
+        currentHealth += amount;
+        currentHealth = Mathf. Clamp(currentHealth, 0, maxHealth);
         UpdateHealthBar();
     }
 
 
     public void UpdateHealthBar()
     {       
-        _healthBarFill.fillAmount = _currentHealth / _maxHealth;
+        healthBarFill.fillAmount = currentHealth / maxHealth;
     }
 
 
